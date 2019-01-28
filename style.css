@@ -1,16 +1,16 @@
 html {
-    
+
     background-color: azure;
     height: 100%;
-} 
+}
 
- .container {
+.container {
     display: grid;
     grid-template-columns: repeat(4, 50px);
     grid-gap: 2px;
     margin: 2rem;
     padding: 1rem;
-    
+
 }
 
 .center {
@@ -22,7 +22,7 @@ html {
 
 #wrapper {
     grid-column: 1 / span 4;
-    
+
 }
 
 #result {
@@ -37,7 +37,8 @@ html {
     grid-column: 1 / span 4;
 }
 
-#calculation, #result {
+#calculation,
+#result {
     font-size: 1.2em;
 }
 
@@ -53,19 +54,19 @@ html {
     text-align: center;
     font-size: 1.5rem;
     border: 1px solid grey;
-    background-image: radial-gradient(rgba(95, 251, 241,0.1) 25%, rgba(209, 107, 165,0.1) 75%);
+    background-image: radial-gradient(rgba(95, 251, 241, 0.1) 25%, rgba(209, 107, 165, 0.1) 75%);
 }
 
 .num {
-    background-image: radial-gradient(rgba(95, 251, 241,0.4) 25%, rgba(209, 107, 165,0.4) 75%);
+    background-image: radial-gradient(rgba(95, 251, 241, 0.4) 25%, rgba(209, 107, 165, 0.4) 75%);
 }
 
 button {
-    
+
     color: rgb(104, 104, 104);
     cursor: pointer;
     border-radius: 5px;
-    
+
 
 }
 
@@ -95,5 +96,5 @@ button:active {
         margin-left: 5px;
     }
 
-   
+
 }
